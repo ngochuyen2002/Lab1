@@ -1,0 +1,41 @@
+body {
+  border: 0.01rem solid rgba(128, 128, 128, 0.537);
+  padding: 5px;
+  border-radius: 5px;
+  width: 75%;
+}
+.notifi a {
+  text-decoration: none;
+}
+.notifi h1 {
+  color: blue;
+  border-bottom: 0.01rem solid rgba(128, 128, 128, 0.537);
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+.notifi li a {
+  color: #08c;
+  padding-left: 5px;
+}
+
+.notifi ul li::marker {
+  content: "❱";
+  color: red;
+}
+
+.notifi li a:active {
+  color: rgb(4, 83, 122);
+  text-decoration: underline;
+}
+
+.below {
+  text-align: right;
+}
+
+.below a {
+  text-decoration: none;
+  color: #08c;
+  font-weight: 700;
+  font-size: 14px;
+  padding-right: 20px;
+}
